@@ -1,0 +1,93 @@
+﻿@model IEnumerable<B2C_V2_1.Models.Product>
+
+@{
+    ViewBag.Title = "FindProduct";
+}
+
+<h2>FindProduct</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ProductoId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FabricanteId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FabricanteNombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProductoReferencia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProductoNombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CategoriaId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CategoriaNombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProductoValor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProductoImagenUrl)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UsuarioId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UsuarioNombre)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProductoId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FabricanteId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FabricanteNombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProductoReferencia)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProductoNombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CategoriaId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CategoriaNombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProductoValor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProductoImagenUrl)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UsuarioId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UsuarioNombre)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>

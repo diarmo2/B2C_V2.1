@@ -1,0 +1,216 @@
+﻿
+.layout-header1 {
+    background-color: #fff;
+    padding: 5px 0;
+}
+
+.category-header {
+    background-color: #3c5c96;
+}
+
+    .category-header .navbar-menu .category-right .gift-block {
+        background-color: #444444;
+        padding: 17px 28px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        color: #fff;
+        width: 255px;
+        margin-left: 15px;
+        border: 0;
+    }
+
+.layout-header1 .main-menu-block .menu-right .icon-nav .cart-block {
+    background-color: #004482;
+    padding: 15px 20px;
+    margin-left: 20px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.btn-normal {
+    font-size: 14px;
+    padding: 18px 45px;
+    font-weight: 700;
+    color: #fff !important;
+    background-color: #34589a;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    display: inline-block;
+    line-height: 1;
+    border-radius: 0;
+    letter-spacing: 0.05em;
+}
+
+.layout-header1 .main-menu-block .menu-right .icon-nav ul li .cart-item {
+    display: inline-block;
+    color: #3c5c96;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: PT Sans,sans-serif;
+}
+
+.services {
+    background-color: #3c5c96;
+}
+
+.discount-banner .discount-banner-contain .rounded-contain .rounded-subcontain {
+    background-color: #444444;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 18px 0;
+    font-weight: 600;
+    font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (1920 - 320)));
+    letter-spacing: .08em;
+    line-height: 1;
+    border-radius: 50px;
+}
+
+.discount-banner .discount-banner-contain .rounded-contain {
+    border: 2px dashed #1772e4;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.discount-banner .discount-banner-contain h1 span + span {
+    color: #0066ff;
+    font-weight: 700;
+}
+
+.discount-banner .discount-banner-contain h1 span {
+    color: #1dcbff;
+}
+
+.contact-banner {
+    background-color: #00b8ff;
+    padding: 20px 0;
+}
+
+.btn-rounded {
+    font-size: 14px;
+    padding: 18px 50px;
+    font-weight: 700;
+    color: #fff !important;
+    background-color: #00a1ff;
+    border-radius: 25px;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    line-height: 1;
+    display: inline-block;
+    letter-spacing: 0.05em;
+}
+
+.navbar-menu .input-block {
+    min-width: 100px;
+}
+
+.ui-menu-item {
+    max-width: 500px;
+    min-width: 150px;
+    width: 40%;
+    position: relative;
+    display: block;
+    background: #fff;
+    padding: 2px 8px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+    .ui-menu-item:hover {
+        background: #3c5c96;
+        color: #fff;
+    }
+
+#tags {
+    font-size: 1.4em;
+}
+
+.div-left {
+    position: absolute;
+    float: left;
+    top: 180px;
+    left: 0.7em;
+    width: 20%;
+    height: 705px;
+    background: #ffffffcf;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 577px) {
+    .img-fluid {
+        position: absolute;
+        top: 7px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #tags {
+        font-size: 1em;
+    }
+
+    .gift-block {
+        display: none !important;
+    }
+
+    #tagsbutton {
+        width: 60px;
+        padding: 0.375rem 0;
+    }
+
+    .input-group-prepend {
+        margin-right: -1px;
+        width: 50px;
+    }
+
+    .category-left {
+        display: block !important;
+    }
+
+    .category-header {
+        display: block;
+    }
+}
+
+@media (max-width: 991px) {
+    .footer-1 .logo-contain .logo-detail {
+        margin-left: 0;
+        margin-top: 88px;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .div-left {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    .div-left {
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .div-left {
+        width: 19%;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .div-left {
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .div-left {
+        width: 20.5%;
+    }
+}
+
